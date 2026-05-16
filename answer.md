@@ -20,8 +20,6 @@ Final validation metrics จาก `best.pt`:
 - mAP50-95: 0.867
 - Inference speed บน validation: ประมาณ 6.4 ms/image
 
-ผมใช้ผล final run นี้ในการตอบคำถามด้านล่าง ไม่ใช่ smoke run รอบแรก
-
 ## 1) การแบ่ง Train/Validation
 
 ผมเลือก split แบบ 80/20:
