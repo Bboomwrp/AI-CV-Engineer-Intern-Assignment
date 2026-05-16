@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local Ultralytics/runtime outputs
+Ultralytics/
+.ultralytics/
+runs/
+dataset/
+dataset_split/
+
+# Large source artifacts from the prompt
+dataset.zip
+Video.mp4
+yolo26s.pt
+
+# Keep final deliverables available for Git LFS commits
+!best.pt
+!output_video.mp4
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
